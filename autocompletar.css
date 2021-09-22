@@ -1,0 +1,32 @@
+.input_container {
+	height: 20px;
+	float: left;
+	
+}
+.input_container input {
+	height: 20px;
+	width: 100px;
+	padding: 0px;
+	border: 1px solid #cccccc;
+	border-radius: 0;
+}
+.input_container ul {
+	width: 250px;
+	border: 1px solid #E6F2FF;
+	position: absolute;
+	z-index: 9;
+	background:#FFF;
+	list-style: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	overflow:scroll-y;
+}
+.input_container ul li {
+	padding: 1px;
+}
+.input_container ul li:hover {
+	background: #eaeaea;
+}
+#country_list_id {
+	display: none;
+}
